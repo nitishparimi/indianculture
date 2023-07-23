@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page with Features</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+      <style>
+        body {
+            margin: 0; /* Remove default margin to ensure the button fills the entire viewport */
+            height: 100vh; /* Set body height to the full viewport height */
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: flex-start; /* Place the button at the bottom */
+            background-image: url("main.png");
+            /* You can adjust background properties like size, position, and repeat here */
+            background-size: cover; 
+            background-repeat: no-repeat;
+            filter: brightness(0.9);
+        }
+      </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+        	<img src="logo.png" alt="logo"></img>
+            <a href="#">Home</a>
+            <a href="about.xhtml">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="card-container">
+        <div class="card1">
+            <img src="image4.png" alt="Image 1"></img>
+            <div class="card-content1">
+                <h2>Historic Monuments</h2>
+               
+                <a class="card-button" href="monuments.xhtml">Read More</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="image3.png" alt="Image 2"></img>
+            <div class="card-content1">
+                <h2>Traditions</h2>
+               
+                <a class="card-button" href="tradition.xhtml">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card1">
+            <img src="image5.png" alt="Image 2"></img>
+            <div class="card-content1">
+                <h2>History</h2>
+                
+                <a class="card-button" href="history.xhtml">Read More</a>
+            </div>
+        </div>
+        <!-- Add more cards here -->
+
+    </div>
+</body>
+</html>
